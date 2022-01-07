@@ -10,6 +10,7 @@ const array = [
 for (let person of array) {
     // console.log("This is the whole person:", person);
     // console.log("This is the name: ", person.name);
+    // console.log("Date of birth:", 2020 - person.age);
     // console.log(person.name, "is a", person.profession);
     if (person.age > 50) {
         console.log(person.name, "is ouder dan 50")
